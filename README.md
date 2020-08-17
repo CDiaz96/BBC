@@ -7,9 +7,11 @@ This mockup website is a copy of the original BBC Newspaper website. It is fully
 
 ![BBC Screenshot](/BBC.png)
 
-How It's Made:
+
+
 Tech used: HTML and CSS
 
+How It's Made:
 I used a basic layout in order to create this website. I used floats in order to best organize each of the articles in their own sections. I applied 3 different media queries that could adjust to multiple screen size. I did MobileFirst and continued towards larger screen sizes. I began with the layout that contained what I believed to be the most important content and added additional content as the screen size increased. In the mobile first media query the navigation bar was reduced to only the logo, the search form, and  Hamburger. The top five most important stories were all displayed vertically.  
 
 
