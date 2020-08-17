@@ -1,0 +1,288 @@
+*{
+box-sizing: border-box;
+}
+header{
+  width:100%;
+  height:70px;
+  background-color: black;
+  float: left;
+}
+header img{
+  max-width: 100%;
+  height: 40px;
+  margin-top: 2%;
+  float: left;
+}
+nav{
+  width: 70%;
+  height: 30px;
+  float: left;
+  margin-top: 3%;
+}
+.menu a{
+  color: white;
+  margin-left:40%;
+  display: none;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-right: 1px solid white;
+}
+form{
+  width: 10%;
+  height: 10px;
+  float: left;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+form input{
+  font-size: 17px;
+  padding: 1%;
+}
+.welcome, .date{
+  width: 50%;
+  height: 100px;
+  float: left;
+}
+.welcome h3{
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 8%;
+  font-size: 25px;
+  font-weight: normal;
+  color: rgb(90 90 90)
+}
+.date h3{
+  text-align: right;
+  margin-right: 3%;
+  margin-top: 8%;
+  font-size: 25px;
+  font-weight: normal;
+  color: rgb(90 90 90)
+}
+.Top{
+  width: 100%;
+  height: 575px;
+  background-color: rgb(231,232,225)
+}
+.Trump, .four{
+  width: 49%;
+  height: 342px;
+  float: left;
+}
+.Trump{
+  background-image: url(FTrump.jpg);
+  background-size:cover;
+  margin-left: 1%;
+}
+.left, .right{
+  width: 49%;
+  float: left;
+}
+.right{
+  margin-right: 2%;
+}
+.topleft, .bottomleft, .topright, .bottomright{
+  width: 100%;
+  height: 164px;
+  margin-left: 5%;
+}
+.topleft{
+  background-image: url(Tbillboard.jpg);
+  background-size:cover;
+}
+.topleft h4, .topright h4{
+  margin: 0;
+  color: white;
+}
+.bottomleft h4, .bottomright h4{
+  margin: 0;
+  color: white;
+}
+span, h4{
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: sans-serif;
+    padding-top: 30%;
+    padding-right: 2%;
+}
+.Top small{
+  font-size: 10px;
+  padding-left: 1%;
+  font-weight:normal;
+  border-left: 1px solid red;
+  color: rgba(247,247,250,80%);
+}
+.Trump h2{
+  color: white;
+  font-size:20px;
+  margin-top: 38%;
+}
+.Trump p{
+  color: rgba(247,247,250, 80%);
+  font-size: 15px;
+}
+.bottomleft{
+  background-image: url(Oxford.jpg);
+  background-size:cover;
+  margin-top: 5%;
+}
+.topright{
+  background-image: url(tiller.jpeg);
+  background-size:cover;
+}
+.bottomright{
+  background-image: url(OpenOffice.jpg);
+  background-size:cover;
+  margin-top: 5%;
+}
+.triplets{
+  width: 100%;
+  height: 300px;
+  clear: both;
+}
+.triplets h2{
+  font-size:25px;
+  font-family: sans-serif;
+  border-left: 2px solid red;
+}
+.triplets img{
+  max-width: 100%;
+  height: 250px;
+}
+
+.one, .two, .three{
+  width: 33%;
+  height: 200px;
+}
+/*Iphone*/
+@media only screen and (max-width:670px){
+  nav{
+    display: none;
+  }
+  .menu a{
+    display: block;
+    padding-left: 42%;
+    padding-top: 2%;
+  }
+  form input{
+    font-size: 15px;
+  }
+  header img{
+    height: 30px;
+  }
+  .welcome{
+    display: none;
+  }
+  .date{
+    width: 100%;
+  }
+  .Trump{
+    width: 100%;
+    display: block;
+  }
+  .left, .four, .right{
+    width: 100%;
+    padding-right: 5%;
+  }
+  .topleft, .bottomleft, .topright, .bottomright{
+    width: 100%;
+    display: block;
+    font-size: 10px;
+    margin-bottom: 2%;
+    height: 200px;
+  }
+  .topleft{
+    margin-top: 5%;
+  }
+  .triplets{
+    display: none;
+  }
+}
+/* Regular Size Ipad*/
+@media (min-width:671px) and (max-width:900px){
+  nav{
+    display: none;
+  }
+  .menu a{
+    display: block;
+    margin-left: 60%;
+    padding-bottom:5%;
+  }
+  .Trump{
+    width: 100%;
+    display: block;
+    height: 350px;
+  }
+  .menu{
+    padding-top: 5%;
+    font-size:15px;
+  }
+  .menu a{
+    padding-left: 25%;
+    font-size: 25px;
+  }
+  .four{
+    width: 100%;
+    margin-top: 5%;
+   padding-right: 5%;
+  }
+  .triplets{
+    width: 100%;
+    padding-top:2%;
+  }
+  .triplets img{
+    width: 32%;
+    height: 200px;
+    padding-left: 5%;
+  }
+}
+/* Vertical Ipad Pro*/
+@media (min-width:901px) and (max-width:1080px){
+.bye{
+  display: none;
+}
+.topleft, .topright{
+  float: left;
+  width: 100%;
+  height: 200px;
+}
+.bottomright, .bottomleft{
+  float: left;
+  height:200px;
+}
+.four{
+  width: 100%;
+  height: 300px;
+  margin-top:5%;
+}
+.Trump{
+  width: 98%;
+  height: 300px;
+}
+.Top{
+  height: 500px;
+}
+.triplets{
+  padding-top: 15%;
+}
+.Trump h2, .Trump p, .Trump small{
+  float: right;
+  margin-left: 70%;
+  margin-top: 0;
+}
+nav{
+  width: 50%;
+  margin-left: 8%;
+}
+html{
+  height:1366px;
+}
+body{
+  height: 1366px;
+}
